@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
+@theme {
+  --color-miki-green: #134e29;
+  --color-miki-green-dark: #0d381d;
+  --color-miki-green-light: #1b6b39;
+  --color-miki-gold: #c29b38;
+  --color-miki-gold-hover: #ab8529;
+  --color-miki-cream: #fcfbfa;
+  --color-miki-sand: #f7f5ef;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfbfa;
+  --foreground: #1c1917;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  antialiased: true;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f0ec;
+}
+::-webkit-scrollbar-thumb {
+  background: #134e29;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1b6b39;
 }
