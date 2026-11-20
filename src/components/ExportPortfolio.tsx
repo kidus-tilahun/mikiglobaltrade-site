@@ -3,7 +3,7 @@ import { Sprout, Zap, ShieldAlert, Flower2, Shirt, Package, Check } from "lucide
 export default function ExportPortfolio() {
   const exports = [
     {
-      category: "Oilseeds",
+      category: "OilseedS",
       title: "Sesame Seeds",
       tagline: "Natural & Hulled Grades",
       desc: "Prized for high oil content and distinctive flavour. Supplied for food processing, oil extraction, bakery and confectionery. Available in natural and hulled grades.",
