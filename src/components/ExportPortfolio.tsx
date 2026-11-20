@@ -65,7 +65,7 @@ export default function ExportPortfolio() {
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
-            <span className="text-[#c29b38] font-bold text-xs uppercase tracking-widest block mb-2">Export Portfolio</span>
+            <span className="text-[#e8653a] font-bold text-xs uppercase tracking-widest block mb-2">Export Portfolio</span>
             <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[#1c1917]">
               What We Export
             </h2>
@@ -82,19 +82,19 @@ export default function ExportPortfolio() {
             return (
               <div
                 key={idx}
-                className="bg-white rounded-2xl p-8 border border-[#e7e5e4] shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group hover:border-[#134e29]"
+                className="bg-white rounded-2xl p-8 border border-[#e7e5e4] shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group hover:border-[#1e3a5f]"
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">
-                    <div className="w-14 h-14 rounded-xl bg-[#134e29] text-white flex items-center justify-center group-hover:scale-110 transition-transform shadow-md">
-                      <IconComponent className="w-7 h-7 text-[#c29b38]" />
+                    <div className="w-14 h-14 rounded-xl bg-[#1e3a5f] text-white flex items-center justify-center group-hover:scale-110 transition-transform shadow-md">
+                      <IconComponent className="w-7 h-7 text-[#e8653a]" />
                     </div>
-                    <span className="bg-[#134e29]/10 text-[#134e29] font-semibold text-xs px-3 py-1 rounded-full">
+                    <span className="bg-[#1e3a5f]/10 text-[#1e3a5f] font-semibold text-xs px-3 py-1 rounded-full">
                       {item.badge}
                     </span>
                   </div>
 
-                  <span className="text-xs font-bold uppercase tracking-wider text-[#c29b38] block mb-1">
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#e8653a] block mb-1">
                     {item.category}
                   </span>
                   <h3 className="text-2xl font-bold text-[#1c1917] mb-2">{item.title}</h3>
@@ -103,12 +103,12 @@ export default function ExportPortfolio() {
                 </div>
 
                 <div className="pt-6 border-t border-[#e7e5e4] flex items-center justify-between">
-                  <span className="text-xs font-semibold text-[#134e29] flex items-center gap-1">
-                    <Check className="w-4 h-4 text-[#c29b38]" /> Verified Quality
+                  <span className="text-xs font-semibold text-[#1e3a5f] flex items-center gap-1">
+                    <Check className="w-4 h-4 text-[#e8653a]" /> Verified Quality
                   </span>
                   <a
                     href="#contact"
-                    className="text-xs font-bold text-[#134e29] hover:text-[#c29b38] transition-colors"
+                    className="text-xs font-bold text-[#1e3a5f] hover:text-[#e8653a] transition-colors"
                   >
                     Inquire &rarr;
                   </a>

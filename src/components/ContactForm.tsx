@@ -59,7 +59,7 @@ export default function ContactForm() {
     <section id="contact" className="py-20 lg:py-28 bg-[#f7f5ef] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-[#c29b38] font-bold text-xs uppercase tracking-widest block mb-3">Let's Do Business</span>
+          <span className="text-[#e8653a] font-bold text-xs uppercase tracking-widest block mb-3">Let's Do Business</span>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[#1c1917] mb-6">
             Get in Touch With Our Trade Team
           </h2>
@@ -70,9 +70,9 @@ export default function ContactForm() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* Contact Details Card */}
-          <div className="lg:col-span-5 bg-[#134e29] text-white p-8 sm:p-10 rounded-2xl shadow-xl flex flex-col justify-between">
+          <div className="lg:col-span-5 bg-[#1e3a5f] text-white p-8 sm:p-10 rounded-2xl shadow-xl flex flex-col justify-between">
             <div>
-              <span className="text-[#c29b38] font-bold text-xs uppercase tracking-widest block mb-2">Direct Contact</span>
+              <span className="text-[#e8653a] font-bold text-xs uppercase tracking-widest block mb-2">Direct Contact</span>
               <h3 className="text-3xl font-bold mb-6">Miki Import Export</h3>
               <p className="text-[#f7f5ef]/90 text-sm leading-relaxed mb-8">
                 Every consignment is handled with verified quality, compliant paperwork, and transparent communication from origin to destination.
@@ -81,9 +81,9 @@ export default function ContactForm() {
               <div className="space-y-6">
                 <a
                   href="mailto:infomikiimportexport@gmail.com"
-                  className="flex items-start gap-4 group hover:text-[#c29b38] transition-colors"
+                  className="flex items-start gap-4 group hover:text-[#e8653a] transition-colors"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-[#0d381d] text-[#c29b38] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 rounded-xl bg-[#0f2540] text-[#e8653a] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
@@ -96,9 +96,9 @@ export default function ContactForm() {
                   href="https://wa.me/251948614061"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 group hover:text-[#c29b38] transition-colors"
+                  className="flex items-start gap-4 group hover:text-[#e8653a] transition-colors"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-[#0d381d] text-[#c29b38] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                  <div className="w-12 h-12 rounded-xl bg-[#0f2540] text-[#e8653a] flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
                     <Phone className="w-6 h-6" />
                   </div>
                   <div>
@@ -108,7 +108,7 @@ export default function ContactForm() {
                 </a>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-[#0d381d] text-[#c29b38] flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-[#0f2540] text-[#e8653a] flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
@@ -119,7 +119,7 @@ export default function ContactForm() {
               </div>
             </div>
 
-            <div className="mt-12 pt-6 border-t border-[#1b6b39] text-xs text-[#f7f5ef]/70">
+            <div className="mt-12 pt-6 border-t border-[#2c5282] text-xs text-[#f7f5ef]/70">
               Response time: Within 24 business hours. Immediate inquiries via WhatsApp.
             </div>
           </div>
@@ -129,8 +129,8 @@ export default function ContactForm() {
             <h3 className="text-2xl font-bold text-[#1c1917] mb-6">Request a Quote / Send Inquiry</h3>
 
             {status === "success" ? (
-              <div className="bg-[#134e29]/10 border border-[#134e29] text-[#134e29] p-6 rounded-xl flex items-start gap-4">
-                <CheckCircle2 className="w-6 h-6 text-[#134e29] flex-shrink-0 mt-0.5" />
+              <div className="bg-[#1e3a5f]/10 border border-[#1e3a5f] text-[#1e3a5f] p-6 rounded-xl flex items-start gap-4">
+                <CheckCircle2 className="w-6 h-6 text-[#1e3a5f] flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-bold text-lg mb-1">Inquiry Sent Successfully!</h4>
                   <p className="text-sm text-[#57534e]">
@@ -138,7 +138,7 @@ export default function ContactForm() {
                   </p>
                   <button
                     onClick={() => setStatus("idle")}
-                    className="mt-4 text-xs font-bold uppercase tracking-wider bg-[#134e29] text-white px-4 py-2 rounded-lg hover:bg-[#1b6b39] transition-colors"
+                    className="mt-4 text-xs font-bold uppercase tracking-wider bg-[#1e3a5f] text-white px-4 py-2 rounded-lg hover:bg-[#2c5282] transition-colors"
                   >
                     Send Another Inquiry
                   </button>
@@ -165,7 +165,7 @@ export default function ContactForm() {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="John Doe"
-                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#134e29] focus:ring-1 focus:ring-[#134e29] outline-none text-sm bg-[#fcfbfa]"
+                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#1e3a5f] focus:ring-1 focus:ring-[#1e3a5f] outline-none text-sm bg-[#fcfbfa]"
                     />
                   </div>
                   <div>
@@ -179,7 +179,7 @@ export default function ContactForm() {
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="john@company.com"
-                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#134e29] focus:ring-1 focus:ring-[#134e29] outline-none text-sm bg-[#fcfbfa]"
+                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#1e3a5f] focus:ring-1 focus:ring-[#1e3a5f] outline-none text-sm bg-[#fcfbfa]"
                     />
                   </div>
                 </div>
@@ -195,7 +195,7 @@ export default function ContactForm() {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="+1 (555) 000-0000"
-                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#134e29] focus:ring-1 focus:ring-[#134e29] outline-none text-sm bg-[#fcfbfa]"
+                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#1e3a5f] focus:ring-1 focus:ring-[#1e3a5f] outline-none text-sm bg-[#fcfbfa]"
                     />
                   </div>
                   <div>
@@ -206,7 +206,7 @@ export default function ContactForm() {
                       name="tradeType"
                       value={formData.tradeType}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#134e29] focus:ring-1 focus:ring-[#134e29] outline-none text-sm bg-[#fcfbfa]"
+                      className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#1e3a5f] focus:ring-1 focus:ring-[#1e3a5f] outline-none text-sm bg-[#fcfbfa]"
                     >
                       <option value="Export">Export (Buy from Miki)</option>
                       <option value="Import">Import / Steel Supply (Source from Miki)</option>
@@ -223,7 +223,7 @@ export default function ContactForm() {
                     name="productCategory"
                     value={formData.productCategory}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#134e29] focus:ring-1 focus:ring-[#134e29] outline-none text-sm bg-[#fcfbfa]"
+                    className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#1e3a5f] focus:ring-1 focus:ring-[#1e3a5f] outline-none text-sm bg-[#fcfbfa]"
                   >
                     <option value="Oilseeds (Sesame / Niger Seed)">Oilseeds (Sesame & Niger Seed)</option>
                     <option value="Pulses (Dried Legumes)">Pulses (Dried Legumes)</option>
@@ -246,14 +246,14 @@ export default function ContactForm() {
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Please specify target quantities, destination port, delivery timeline, or any specific trade questions..."
-                    className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#134e29] focus:ring-1 focus:ring-[#134e29] outline-none text-sm bg-[#fcfbfa]"
+                    className="w-full px-4 py-3 rounded-xl border border-[#e7e5e4] focus:border-[#1e3a5f] focus:ring-1 focus:ring-[#1e3a5f] outline-none text-sm bg-[#fcfbfa]"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
                   disabled={status === "loading"}
-                  className="w-full bg-[#134e29] hover:bg-[#1b6b39] text-white font-bold py-4 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2 disabled:opacity-70"
+                  className="w-full bg-[#1e3a5f] hover:bg-[#2c5282] text-white font-bold py-4 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2 disabled:opacity-70"
                 >
                   {status === "loading" ? (
                     <>

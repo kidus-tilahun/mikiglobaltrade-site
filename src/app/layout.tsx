@@ -13,6 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.mikiglobaltrade.com"),
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
+  icons: {
+    icon: "/brand/miki-favicon.png",
+    apple: "/brand/miki-favicon.png",
+  },
   title: "Miki Import Export | Global Trade & Two-Way Commodities Partner",
   description: "Connecting Africa's harvests, power and craft with world markets — and importing construction steel and building materials that build tomorrow.",
   keywords: [
@@ -30,10 +37,22 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Miki Import Export | Global Trade & Two-Way Commodities Partner",
     description: "Connecting Africa's harvests, power and craft with world markets — and importing construction steel and building materials that build tomorrow.",
-    url: "https://mikiimportexport.com",
+    url: "https://www.mikiglobaltrade.com",
     siteName: "Miki Import Export",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/brand/miki-primary-logo.png",
+        alt: "MIKI Import Export logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Miki Import Export | Global Trade & Two-Way Commodities Partner",
+    description: "Connecting Africa's harvests, power and craft with world markets.",
+    images: ["/brand/miki-primary-logo.png"],
   },
 };
 

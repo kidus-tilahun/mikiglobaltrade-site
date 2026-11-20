@@ -21,7 +21,7 @@ export default function ImportSection() {
   ];
 
   return (
-    <section id="imports" className="py-20 lg:py-28 bg-[#134e29] text-white relative overflow-hidden">
+    <section id="imports" className="py-20 lg:py-28 bg-[#1e3a5f] text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute top-10 right-10 w-96 h-96 rounded-full border-4 border-white"></div>
         <div className="absolute bottom-10 left-10 w-80 h-80 rounded-full border-8 border-white"></div>
@@ -30,7 +30,7 @@ export default function ImportSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-5">
-            <span className="text-[#c29b38] font-bold text-xs uppercase tracking-widest block mb-3">Import & Partnership</span>
+            <span className="text-[#f4976b] font-bold text-xs uppercase tracking-widest block mb-3">Import & Partnership</span>
             <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
               Construction Steel & Building Materials
             </h2>
@@ -39,21 +39,21 @@ export default function ImportSection() {
             </p>
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">
-                <div className="w-6 h-6 rounded-full bg-[#c29b38] text-[#134e29] flex items-center justify-center font-bold text-xs">✓</div>
+                <div className="w-6 h-6 rounded-full bg-[#f4976b] text-[#1e3a5f] flex items-center justify-center font-bold text-xs">✓</div>
                 <span className="text-sm font-medium">Supplied to contractors, developers & distributors</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-6 h-6 rounded-full bg-[#c29b38] text-[#134e29] flex items-center justify-center font-bold text-xs">✓</div>
+                <div className="w-6 h-6 rounded-full bg-[#f4976b] text-[#1e3a5f] flex items-center justify-center font-bold text-xs">✓</div>
                 <span className="text-sm font-medium">Rigorous quality assurance & mill test certificates</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-6 h-6 rounded-full bg-[#c29b38] text-[#134e29] flex items-center justify-center font-bold text-xs">✓</div>
+                <div className="w-6 h-6 rounded-full bg-[#f4976b] text-[#1e3a5f] flex items-center justify-center font-bold text-xs">✓</div>
                 <span className="text-sm font-medium">Reliable bulk logistics & port-to-site coordination</span>
               </div>
             </div>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-[#c29b38] hover:bg-[#ab8529] text-[#134e29] font-bold px-8 py-4 rounded-xl text-base transition-all shadow-lg"
+              className="inline-flex items-center gap-2 bg-[#f4976b] hover:bg-[#f0865a] text-[#1e3a5f] font-bold px-8 py-4 rounded-xl text-base transition-all shadow-lg"
             >
               <HardHat className="w-5 h-5" />
               <span>Request Steel Supply Quote</span>
@@ -64,16 +64,16 @@ export default function ImportSection() {
             {materials.map((mat, idx) => (
               <div
                 key={idx}
-                className="bg-[#0d381d] border border-[#1b6b39] p-8 rounded-2xl shadow-xl flex flex-col justify-between hover:border-[#c29b38] transition-colors"
+                className="bg-[#0f2540] border border-[#2c5282] p-8 rounded-2xl shadow-xl flex flex-col justify-between hover:border-[#f4976b] transition-colors"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-[#c29b38]/20 text-[#c29b38] flex items-center justify-center mb-6">
+                  <div className="w-12 h-12 rounded-xl bg-[#f4976b]/20 text-[#f4976b] flex items-center justify-center mb-6">
                     <Building2 className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-bold mb-3">{mat.title}</h3>
                   <p className="text-sm text-[#f7f5ef]/80 leading-relaxed mb-6">{mat.desc}</p>
                 </div>
-                <div className="pt-4 border-t border-[#1b6b39] flex items-center gap-2 text-xs text-[#c29b38] font-semibold">
+                <div className="pt-4 border-t border-[#2c5282] flex items-center gap-2 text-xs text-[#f4976b] font-semibold">
                   <ShieldCheck className="w-4 h-4" /> Vetted Manufacturer Sourced
                 </div>
               </div>

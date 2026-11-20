@@ -12,7 +12,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative bg-[#134e29] text-white overflow-hidden py-20 lg:py-32">
+    <section className="relative bg-[#1e3a5f] text-white overflow-hidden py-20 lg:py-32">
       {/* Background decorative pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute -top-40 -right-40 w-96 h-96 rounded-full border-8 border-white/20"></div>
@@ -23,13 +23,13 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         <div className="max-w-3xl">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-[#1b6b39] border border-[#238a49] text-[#c29b38] px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 shadow-sm">
-            <Globe2 className="w-4 h-4 text-[#c29b38]" />
+          <div className="inline-flex items-center gap-2 bg-[#2c5282] border border-[#238a49] text-[#f4976b] px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 shadow-sm">
+            <Globe2 className="w-4 h-4 text-[#f4976b]" />
             <span>Global Trading Partner</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6">
-            Connecting Africa's <span className="text-[#c29b38]">Harvests & Power</span> to World Markets
+            Connecting Africa's <span className="text-[#f4976b]">Harvests & Power</span> to World Markets
           </h1>
 
           <p className="text-lg sm:text-xl text-[#f7f5ef]/90 leading-relaxed mb-10">
@@ -39,14 +39,14 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-16">
             <a
               href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-[#c29b38] hover:bg-[#ab8529] text-[#134e29] font-bold px-8 py-4 rounded-xl text-base transition-all shadow-lg hover:translate-y-[-2px]"
+              className="inline-flex items-center justify-center gap-2 bg-[#f4976b] hover:bg-[#f0865a] text-[#1e3a5f] font-bold px-8 py-4 rounded-xl text-base transition-all shadow-lg hover:translate-y-[-2px]"
             >
               <span>Request a Quote (RFQ)</span>
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
               href="#exports"
-              className="inline-flex items-center justify-center gap-2 bg-[#1b6b39] hover:bg-[#238a49] text-white font-semibold px-8 py-4 rounded-xl text-base transition-all border border-[#238a49]"
+              className="inline-flex items-center justify-center gap-2 bg-[#2c5282] hover:bg-[#238a49] text-white font-semibold px-8 py-4 rounded-xl text-base transition-all border border-[#238a49]"
             >
               <span>Explore Export Portfolio</span>
             </a>
@@ -54,15 +54,15 @@ export default function Hero() {
         </div>
 
         {/* Product category pills ticker/grid */}
-        <div className="pt-10 border-t border-[#1b6b39]">
-          <p className="text-xs font-semibold uppercase tracking-widest text-[#c29b38] mb-4">
+        <div className="pt-10 border-t border-[#2c5282]">
+          <p className="text-xs font-semibold uppercase tracking-widest text-[#f4976b] mb-4">
             Our Core Commodities & Goods:
           </p>
           <div className="flex flex-wrap gap-2.5">
             {categories.map((cat, idx) => (
               <span
                 key={idx}
-                className="bg-[#0d381d]/80 hover:bg-[#1b6b39] text-[#f7f5ef] text-xs sm:text-sm font-medium px-4 py-2 rounded-lg border border-[#1b6b39] transition-colors shadow-sm"
+                className="bg-[#0f2540]/80 hover:bg-[#2c5282] text-[#f7f5ef] text-xs sm:text-sm font-medium px-4 py-2 rounded-lg border border-[#2c5282] transition-colors shadow-sm"
               >
                 {cat}
               </span>
@@ -71,9 +71,9 @@ export default function Hero() {
         </div>
 
         {/* Trust metrics */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 pt-12 border-t border-[#1b6b39]/70">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 pt-12 border-t border-[#2c5282]/70">
           <div className="flex items-start gap-4">
-            <div className="p-3 bg-[#0d381d] rounded-lg text-[#c29b38]">
+            <div className="p-3 bg-[#0f2540] rounded-lg text-[#f4976b]">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
@@ -82,7 +82,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <div className="p-3 bg-[#0d381d] rounded-lg text-[#c29b38]">
+            <div className="p-3 bg-[#0f2540] rounded-lg text-[#f4976b]">
               <TrendingUp className="w-6 h-6" />
             </div>
             <div>
@@ -91,7 +91,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <div className="p-3 bg-[#0d381d] rounded-lg text-[#c29b38]">
+            <div className="p-3 bg-[#0f2540] rounded-lg text-[#f4976b]">
               <Globe2 className="w-6 h-6" />
             </div>
             <div>

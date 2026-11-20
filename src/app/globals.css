@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-miki-green: #134e29;
-  --color-miki-green-dark: #0d381d;
-  --color-miki-green-light: #1b6b39;
-  --color-miki-gold: #c29b38;
-  --color-miki-gold-hover: #ab8529;
+  --color-miki-green: #1e3a5f;
+  --color-miki-green-dark: #0f2540;
+  --color-miki-green-light: #2c5282;
+  --color-miki-gold: #f4976b;
+  --color-miki-gold-hover: #f0865a;
   --color-miki-cream: #fcfbfa;
   --color-miki-sand: #f7f5ef;
 }
@@ -34,9 +34,9 @@ body {
   background: #f1f0ec;
 }
 ::-webkit-scrollbar-thumb {
-  background: #134e29;
+  background: #1e3a5f;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #1b6b39;
+  background: #2c5282;
 }

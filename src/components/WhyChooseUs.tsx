@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
     <section id="why-us" className="py-20 lg:py-28 bg-[#fcfbfa]">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-[#c29b38] font-bold text-xs uppercase tracking-widest block mb-3">Partnership Advantage</span>
+          <span className="text-[#e8653a] font-bold text-xs uppercase tracking-widest block mb-3">Partnership Advantage</span>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[#1c1917] mb-6">
             Why Partner With Miki
           </h2>
@@ -45,8 +45,8 @@ export default function WhyChooseUs() {
                 key={idx}
                 className="bg-white p-8 sm:p-10 rounded-2xl border border-[#e7e5e4] shadow-sm hover:shadow-lg transition-shadow flex items-start gap-6"
               >
-                <div className="w-14 h-14 rounded-xl bg-[#134e29]/10 text-[#134e29] flex-shrink-0 flex items-center justify-center">
-                  <IconComponent className="w-7 h-7 text-[#134e29]" />
+                <div className="w-14 h-14 rounded-xl bg-[#1e3a5f]/10 text-[#1e3a5f] flex-shrink-0 flex items-center justify-center">
+                  <IconComponent className="w-7 h-7 text-[#1e3a5f]" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-[#1c1917] mb-3">{item.title}</h3>
